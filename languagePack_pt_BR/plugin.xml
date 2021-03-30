@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin loader="DEFAULT" name="languagePack_pt_BR" title="languagePack_pt_BR">
+  <overlays>
+    <overlay id="startup.languagePack_pt_BR" resourcebundle="content/languagePack_pt_BR/resources/lang/messages">
+      <menubar id="toolsmenu">
+        <menubar id="languagePacks" label="${Launcher.menuLanguagePacks}" layout="vertical">
+          <menuitem command="mantleXulHandler.openUrl(&apos;${languagePack.title}&apos;,&apos;${languagePack.title}&apos;,&apos;plugin/languagePack_pt_BR/api/main&apos;)" id="languagePack_pt_BR" label="${languagePack.title}" />
+        </menubar>
+      </menubar>
+    </overlay>
+  </overlays>
+  <lifecycle-listener class="pt.webdetails.cpk.CpkLifecycleListener" />
+  <static-paths>
+    <static-path localFolder="static" url="/languagePack_pt_BR/static" />
+    <static-path localFolder="resources" url="/languagePack_pt_BR/resources" />
+  </static-paths>
+  <content-types>
+    <content-type>
+      <title>Portuguese (Brazilian variant) Language Pack Installer</title>
+      <description>This plugin installs language definitions for the Portuguese language (Brazilian variant) in Pentaho 5</description>
+      <company logo="" name="Oncase, Open Consulting, IT4biz, Ambiente Livre" url="http://br.groups.yahoo.com/neo/groups/pentahobr/info" />
+    </content-type>
+  </content-types>
+  <content-generator class="pt.webdetails.cpk.CpkContentGenerator" id="languagePack_pt_BR" title="Portuguese (Brazilian variant) Language Pack Installer" type="languagePack_pt_BR" />
+  <menu-items>
+    <menu-item anchor="tools-submenu" command="plugin/languagePack_pt_BR/api/main" how="LAST_CHILD" id="languagePack_pt_BR_main" label="Portuguese (Brazilian variant) Language Pack Installer" type="MENU_ITEM" />
+  </menu-items>
+</plugin>

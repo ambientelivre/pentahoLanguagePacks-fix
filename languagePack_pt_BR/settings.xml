@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<cde-styles>
+		<path>system/languagePack_pt_BR/resources/styles</path>
+	</cde-styles>
+  	<cde-datasources/>
+	<cde-components>
+	  <!-- paths from solution with cde component definitions to be loaded-->
+	  <path>system/languagePack_pt_BR/resources/components</path>
+	  <path>languagePack_pt_BR/components</path>
+	</cde-components>
+</settings>
