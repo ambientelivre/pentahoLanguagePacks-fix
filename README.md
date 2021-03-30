@@ -9,10 +9,9 @@ A muito tempo foi enviado via PR no git oficial da tradução e até agora não 
 - Atualizado etls do Pull request (Java Heap Overflow)
 
 # Install
-1 - Realizar o Download do release da sua versão ( Exemplo 9x )
-2 - Descompactar
-3 - Copiar para o diretório languagePack_pt_BR para o diretório <pentahoinstall>/pentaho-server/pentaho-solutions/system/
-4 - Reiniciar o Pentaho Server.
-5 - Executar no Pentaho Server no meno Tools -> pentahoLanguagePacks -> Portuguese (Brazilian variant) Language Pack Installer e clique em Install.
-6 - Limpe o cache do Browser (CRTL+F5).   
-  
+- Realizar o Download do release da sua versão ( Exemplo 9x )
+- Descompactar
+- Copiar para o diretório languagePack_pt_BR para o diretório <pentahoinstall>/pentaho-server/pentaho-solutions/system/
+- Reiniciar o Pentaho Server.
+- Executar no Pentaho Server no meno Tools -> pentahoLanguagePacks -> Portuguese (Brazilian variant) Language Pack Installer e clique em Install.
+- Limpe o cache do Browser (CRTL+F5).
