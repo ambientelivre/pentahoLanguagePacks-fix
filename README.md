@@ -13,8 +13,10 @@ A muito tempo foi enviado via PR no git oficial da tradução, que até agora n�
 - Descompactar.
 - Copiar para o diretório descompactado languagePack_pt_BR para o diretório <pentahoinstall>/pentaho-server/pentaho-solutions/system/
 - Reiniciar o Pentaho Server.
-- Executar no Pentaho Server no meno Tools -> pentahoLanguagePacks -> Portuguese (Brazilian variant) Language Pack Installer e clique em Install.
+- Executar no Pentaho Server no menu Tools -> pentahoLanguagePacks -> Portuguese (Brazilian variant) Language Pack Installer e clique em Install.
 - Limpe o cache do Browser (CRTL+F5).
+
+Obs. Se alguns temas ainda não ficaram traduzidos execute o install dio plugin pela segunda vez.
 
 # Versões
 https://github.com/ambientelivre/pentahoLanguagePacks-fix/releases
